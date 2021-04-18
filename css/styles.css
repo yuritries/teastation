@@ -150,7 +150,8 @@ p {
   height: 40%;
   min-width: 15rem;
   background: var(--clr-grey-10);
-  border-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  /* border-radius: var(--radius); */
   z-index: 2;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   /* hide navbar */
