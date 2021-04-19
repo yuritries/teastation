@@ -132,61 +132,60 @@ p {
   }
 }
 @keyframes bounce {
-  0%{
+  0% {
     transform: scale(1);
   }
-  50%{
+  50% {
     transform: scale(1.5);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
 @keyframes slideFromRight {
-  0%{
+  0% {
     transform: translateX(1000px);
     opacity: 0;
   }
-  50%{
+  50% {
     transform: translateX(-200px);
     opacity: 0.5;
   }
-  75%{
+  75% {
     transform: translateX(50px);
     opacity: 0.75;
   }
-  100%{
+  100% {
     transform: translateX(0px);
     opacity: 1;
   }
 }
 @keyframes slideFromLeft {
-  0%{
+  0% {
     transform: translateX(-1000px);
     opacity: 0;
   }
-  50%{
+  50% {
     transform: translateX(200px);
     opacity: 0.5;
   }
-  75%{
+  75% {
     transform: translateX(-50px);
     opacity: 0.75;
   }
-  100%{
+  100% {
     transform: translateX(0px);
     opacity: 1;
   }
 }
 @keyframes showbutton {
-  0%{
-    
+  0% {
     opacity: 0;
   }
-  50%{
-    opacity: 0.50;
+  50% {
+    opacity: 0.5;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -511,6 +510,9 @@ p {
 .contact-text {
   text-transform: uppercase;
 }
+.contact-email {
+  text-transform: none;
+}
 .contact-form {
   background: var(--clr-white);
   border-radius: var(--radius);
@@ -537,7 +539,6 @@ p {
   margin-bottom: 1.25rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
-  text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
 input:focus,
