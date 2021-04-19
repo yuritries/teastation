@@ -1,3 +1,3 @@
 # teastation
-visit site [here](https://yuritries.github.io/teastation/)
-Hi!
+
+Hi, visit the site [here](https://yuritries.github.io/teastation/)
